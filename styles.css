@@ -128,6 +128,8 @@ ul {
 .sign {
   flex: 1;
   padding: 75px 175px;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
