@@ -1,0 +1,54 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+}
+
+.links {
+  display: flex;
+}
+
+/* Hero Styling */
+.hero {
+  display: flex;
+}
+
+/* Info Styling */
+.info {
+  display: flex;
+}
+
+.content {
+  display: flex;
+}
+
+/* Quote Styling */
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote .text {
+  align-self: flex-start;
+}
+
+.quote .quotee {
+  align-self: flex-end;
+}
+
+/* Sign Styling */
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer Styling */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
