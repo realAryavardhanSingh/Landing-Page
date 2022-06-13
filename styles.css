@@ -78,7 +78,7 @@ ul {
   flex-wrap: wrap;
 }
 
-.container {
+.info .container {
   text-align: center;
   width: 150px;
 }
@@ -95,15 +95,27 @@ ul {
 /* Quote Styling */
 .quote {
   display: flex;
-  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 80px;
 }
 
+.quote .container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
 .quote .text {
   align-self: flex-start;
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 250;
 }
 
 .quote .quotee {
   align-self: flex-end;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /* Sign Styling */
