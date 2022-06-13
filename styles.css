@@ -6,7 +6,18 @@
 /* Header Styling */
 .header {
   display: flex;
+  justify-content: space-between;
 }
+
+.logo img {
+  width: 48px;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
 
 .links {
   display: flex;
