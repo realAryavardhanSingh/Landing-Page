@@ -1,21 +1,22 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.page {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 
 /* Villain Styling */
 .villain {
 background-color: #1F2937;
+padding: 25px 150px;
 }
 
 /* Header Styling */
 .header {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 
 .logo img {
@@ -36,12 +37,17 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .hero .title {
   font-size: 48px;
   font-weight:bolder;
   color: #F9FAF8;
+}
+
+.hero button {
+  margin-top: 10px;
 }
 
 .hero .text {
@@ -51,10 +57,39 @@ ul {
 /* Info Styling */
 .info {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px 72px;
+  flex-wrap: wrap;
+}
+
+.info .top {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  padding: 36px;
 }
 
 .content {
   display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.container {
+  text-align: center;
+  width: 150px;
+}
+
+.content img {
+  width: 126px;
+  height: auto;
+  padding: 10px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+
 }
 
 /* Quote Styling */
