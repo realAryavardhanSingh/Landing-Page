@@ -54,6 +54,11 @@ ul {
   color: #E5E7EB;
   font-size: 18px;
 }
+
+.hero img {
+  width: 300px;
+  height: auto;
+}
 /* Info Styling */
 .info {
   display: flex;
@@ -119,9 +124,28 @@ ul {
 }
 
 /* Sign Styling */
+.sign {
+  flex: 1;
+  padding: 75px 100px;
+}
+
 .box {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 35px 50px;
+  border-radius: 8px;
+  color: white;
+}
+
+.sign .text.top {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.sign .text.bottom {
+  font-size: 14px;
 }
 
 .box button {
@@ -133,6 +157,10 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 14px;
+  padding: 25px;
 }
 
 /* Button Styling */
@@ -142,4 +170,5 @@ button {
   border-radius: 7px;
   padding: 4px 22px;
   border: 0;
+  color: white;
 }
