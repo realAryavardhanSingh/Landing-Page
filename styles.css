@@ -126,13 +126,15 @@ ul {
 
 /* Sign Styling */
 .sign {
-  flex: 1;
+  display: flex;
+  flex: 1 0 0;
   padding: 75px 175px;
   justify-content: center;
   align-items: center;
 }
 
 .box {
+  flex: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
